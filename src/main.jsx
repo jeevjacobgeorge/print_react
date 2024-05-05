@@ -15,10 +15,6 @@ import {
 
 const router = createBrowserRouter([
   {
-    path:"/",
-    element: <Login/>
-  },
-  {
     path: "student/upload/",
     element:<Form/>
   },
