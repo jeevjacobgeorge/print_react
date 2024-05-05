@@ -14,7 +14,10 @@ import {
 } from "react-router-dom";
 
 const router = createBrowserRouter([
-
+  {
+    path: "print_react/",
+    element: <Form />,
+  },
   {
     path: "print_react/student/upload/",
     element:<Form/>
