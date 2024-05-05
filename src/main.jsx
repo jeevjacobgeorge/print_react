@@ -14,20 +14,21 @@ import {
 } from "react-router-dom";
 
 const router = createBrowserRouter([
+
   {
-    path: "student/upload/",
+    path: "print_react/student/upload/",
     element:<Form/>
   },
   {
-    path: "/student/signup",
+    path: "print_react/student/signup",
     element: <Signup/>,
   },
   {
-    path: "/student/login",
+    path: "print_react/student/login",
     element: <Login />
   },
   {
-    path: "/student/dashboard",
+    path: "print_react/student/dashboard",
     element: <Dashboard />
   }
 
