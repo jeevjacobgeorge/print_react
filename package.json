@@ -1,9 +1,11 @@
 {
-  "name": "projectform",
+  "homepage": "https://jeevjacobgeorge.github.io/print_react/",
+  "name": "pack",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
