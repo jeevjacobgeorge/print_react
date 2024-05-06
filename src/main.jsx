@@ -1,5 +1,5 @@
 
-import Form from './Components/UploadForm.jsx'
+// import Form from './Components/UploadForm.jsx'
 import Signup from './Components/signup.jsx'
 import Login from './Components/login.jsx'
 import Dashboard from './Components/Dashboard.jsx'
@@ -16,22 +16,18 @@ import {
 const router = createBrowserRouter([
   {
     path: "print_react/",
-    element: <Form />,
+    element: <Login/>,
   },
   {
-    path: "print_react/student/upload/",
-    element:<Form/>
-  },
-  {
-    path: "print_react/student/signup",
+    path: "/student/signup",
     element: <Signup/>,
   },
   {
-    path: "print_react/student/login",
+    path: "/student/login",
     element: <Login />
   },
   {
-    path: "print_react/student/dashboard",
+    path: "/student/dashboard",
     element: <Dashboard />
   }
 
